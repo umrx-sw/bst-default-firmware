@@ -11,7 +11,7 @@ here you can find the HEX files for programming.
 
 ## Program the board
 
-1. Go to the [release page]() and download the `*.hex` file
+1. Go to the [release page](https://github.com/umrx-sw/bst-default-firmware/releases) and download the `*.hex` files.
 
 2. install the `nrfjprog` tool which is part of 
 [nRF-Command-Line-Tools](https://www.nordicsemi.com/Products/Development-tools/nRF-Command-Line-Tools/).
