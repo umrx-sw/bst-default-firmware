@@ -1,4 +1,4 @@
-# BST Default firmware
+# 🌟 BST Default firmware
 
 (**Unofficial**) Default BST firmware for [Application Board 3.1](https://www.bosch-sensortec.com/software-tools/tools/application-board-3-1/) or 
 [3.0](https://www.bosch-sensortec.com/software-tools/tools/application-board-3-0/) hardware.
@@ -9,7 +9,7 @@ If you would like to restore the firmware to its default state
 (possibly after some experimentation), 
 here you can find the HEX files for programming.
 
-## Program the board
+## 📖 How to program the board
 
 1. Download the `*.hex` files from the [release page](https://github.com/umrx-sw/bst-default-firmware/releases).
    Alternatively, use `wget` to download the `*.hex` files:
