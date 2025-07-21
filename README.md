@@ -45,7 +45,7 @@ nrfutil device program --family nrf52 --firmware application_board_v3_rev1_fw.he
   4.2. For Application Board 3.0, run:
 
 ```bash
-nrfutil device program --firmware application_board_v3_rev0_fw.hex
+nrfutil device program --family nrf52 --firmware application_board_v3_rev0_fw.hex
 ```
 
 5. Write the bootloader address to the (`UICR.BOOTLOADERADDR`, `0x10001014` in the reference manual: `UICR.NRFFW[0]`):
