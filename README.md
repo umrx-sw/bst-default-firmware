@@ -9,7 +9,18 @@ If you would like to restore the firmware to its default state
 (possibly after some experimentation), 
 here you can find the HEX files for programming.
 
-## 📖 How to program the board
+To restore the firmware and program the board, one must connect J-Link compatible
+programmer to the 10-pin debugger interface on the Application Board 3.1 (or 3.0).
+
+## How to read the firmware to file
+
+This step is optional in case you want to save currently programmed firmware 
+to `*.hex` file
+```bash
+nrfutil device dump-to-file --family nrf52 --code application_board_v3_rev1_fw.hex
+```
+
+## How to program the board
 
 1. Download the `*.hex` files from the [release page](https://github.com/umrx-sw/bst-default-firmware/releases).
    Alternatively, use `wget` to download the `*.hex` files:
